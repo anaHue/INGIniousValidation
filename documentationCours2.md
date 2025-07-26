@@ -70,4 +70,18 @@ This tutorial supposes you are already connected to an account and have already 
   <li>Once every variables are configured, click on <b>Save changes</b/>. The exercise is now ready</li>
   </ol>
 
+## Useful instructions for the files
 
+### Test.py
+
+Here are some guidelines on how to write a Test.py file:
+
+<ul>
+  <li>It must be a pyunit Test class</li>
+  <li>To call the code of the student, you must <b>import template</b> and later use <b>template.YOUR_METHOD</b></li>
+  <li>The file must end with :
+  
+      if __name__ == "__main__":
+        unittest.main()
+  </li>
+</ul>
