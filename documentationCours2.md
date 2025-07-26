@@ -14,7 +14,7 @@ This tutorial supposes you are already connected to an account and have already 
 
 <ol>
   <li>Click on your course</li>
-  <li>On the left bar, click on course administration</li>
+  <li>On the left bar, click on <b>Course administration</b></li>
   <li>On the left bar of the administration page, click on <b>Tasks</b></li>
   <li>On the top right of the list of exercise, click on the three lines / the hamburger menu</li>
   <li>Click on <b>Add tasks</b></li>
@@ -22,15 +22,15 @@ This tutorial supposes you are already connected to an account and have already 
   <li>Click on the button <b>Create new task</b></li>
   <li>On the right bottom part, click on the <b>Save changes</b> button</li>
   <li>On the right part of your exercise in the list of exercise, click on the <b>Task settings</b> button (dark blue button)</li>
-  <li>Set the accessibility to <b>Always</b></li>
-  <li>Click on close</li>
+  <li>Set the Accessibility to <b>Always</b> at the bottom of the modal</li>
+  <li>Click on Close</li>
   <li>Click on the <b>Save changes</b> button</li>
   <li>Click on the <b>Edit task</b> button (light blue)</li>
   <li>Enter a name to the exercise. This name will be displayed to the students in the list of exercises</li>
   <li>Enter a context to the exercise. This context will act as the guidelines of the exercise. It should explain what will be the goal of students in this exercise</li>
   <li>Click on <b>Environment</b> tab</li>
-  <li>Select the <b>Standard container</b> from the `Grading environment type` selection menu</li>
-  <li>Select the <b>judge-demo</b> from the `Grading environment` selection menu</li>
+  <li>Select the <b>Standard container</b> from the <b>Grading environment type</b> selection menu</li>
+  <li>Select the <b>judge-demo</b> from the Grading environment selection menu</li>
   <li>Click on <b>Save changes</b></li>
   <li>Refresh the page</li>
   <li>Click on <b>Subproblems</b> tab</li>
@@ -41,7 +41,7 @@ This tutorial supposes you are already connected to an account and have already 
   This is where you will find all the files of your exercise. For this new definition of an exercise, you should give the following files:
 
   <ul>
-    <li><b>src/Test.py</b> : This file should contain all the tests that will be used to check the solution of the student. Each test case should call the Correction code and should call the code of the student. Then, an assertion should be made to check the same output between the correction and the student code</li>
+    <li><b>Test.py</b> : This file should contain all the tests that will be used to check the solution of the student. Each test case should call the Correction code and should call the code of the student. Then, an assertion should be made to check the same output between the correction and the student code</li>
   </ul>
   <br>
   <li>Click on the <b>Variables of the exercise</b> tab</li>
