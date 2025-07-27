@@ -5,7 +5,7 @@ Les équations du second degré sont des équations de la forme suivante:
 
 $ax^2+bx+c=0$
 
-avec a≠0
+avec a≠0 (Vous ne devez pas tester ceci).
 
 Pour déterminer si l'équation dispose d'une solution, on calcule le nombre $ρ=b^2−4ac$.
 

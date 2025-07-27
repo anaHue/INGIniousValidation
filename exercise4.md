@@ -1,7 +1,7 @@
 # Fusion de listes
 
 ## Enoncé
-On souhaite écrire le code de la fonction `fusion` qui prend en paramètres deux listes d'entiers `liste_a, liste_b` triées par ordre croissant et les fusionne en une seule liste triée `liste_triee` qu'elle renvoie.
+On souhaite écrire le corps de la fonction `fusion` qui prend en paramètres deux listes d'entiers `first_list, second_list` triées par ordre croissant et les fusionne en une seule liste triée.
 
 ## Exemple de tests
 ```
