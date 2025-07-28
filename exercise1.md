@@ -21,5 +21,5 @@ calculate_roh(1, -5, 4) -> 9
 ## Réponse attendue
 
 ```python
-roh = b**b - 4*a*c
+roh = b**2 - 4*a*c
 ```

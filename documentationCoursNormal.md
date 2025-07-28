@@ -40,11 +40,14 @@ This tutorial supposes you are already connected to an account and have already 
 
   <ul>
     <li><b>run</b> : This is the first file executed when writing an exercise. It should at least get the code of the student, run the tests and provide a score and a feedback</li>
-    <li><b>template.py</b> : This file should contain the same content as the Correction file except the code giving the solution should be replace by the following tag : @@problem_id@@. This special tag will get the code of the code editor of the student and inject the content of it at the place of the template. In our case, we will put @    @q1@@ as we gave this name to our subproblem previously. The tab between the two first @ means that the code of the student will be correctly indented to where the code of the student should be injected.</li>
-
-    def func():
-    @    @q1@@
-
+    <li><b>template.py</b> : This file should contain the same content as the Correction file except the code giving the solution should be replace by the following tag : @@problem_id@@. This special tag will get the code of the code editor of the student and inject the content of it at the place of the template. In our case, we will put @    @q1@@ as we gave this name to our subproblem previously. The tab between the two first @ means that the code of the student will be correctly indented to where the code of the student should be injected:
+    <br>
+    <blockquote>
+      def func():<br>
+      @&nbsp&nbsp&nbsp&nbsp@q1@@
+      </blockquote>
+      <br>
+    </li>
     <li><b>Test.py</b> : This file should contain all the tests that will be used to check the solution of the student. Each test case should call the Correction code and should call the code of the student. Then, an assertion should be made to check the same output between the correction and the student code</li>
     <li>Correction.py : While it is not mandatory, you can create a correction file. This should contain the expected implementation of the solution. This file will be used in the tests to compare the expected output with the one of the student</li>
   </ul>
