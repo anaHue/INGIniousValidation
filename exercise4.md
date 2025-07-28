@@ -32,11 +32,11 @@ while len(first_list) > cpt and len(second_list) > cpt2:
 
 if len(first_list) > cpt:
 	for i in range(cpt, len(first_list)):
-		res.append(first_list)
+		res.append(first_list[i])
             
 if len(second_list) > cpt2:
 	for i in range(cpt2, len(second_list)):
-		res.append(second_list)
+		res.append(second_list[i])
             
 return res
 ```
