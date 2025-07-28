@@ -62,9 +62,9 @@ This tutorial supposes you are already connected to an account and have already 
   @@$utilityCode@@
 
   def @@$functionName@@(@@$parameters@@):
-    @@$codeMethodBefore@@
+    @@$codeMethodBeforeStudent@@
   @	@q1@@
-    @@$codeMethodAfter@@
+    @@$codeMethodAfterStudent@@
   ```
 
   <li>Once every variables are configured, click on <b>Save changes</b/>. The exercise is now ready</li>
